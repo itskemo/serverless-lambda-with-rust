@@ -12,3 +12,6 @@
 
 ## Deploying the Lambda to AWS
 - `./node_modules/.bin/serverless deploy -s development --verbose`
+
+## Invoking the Lambda locally
+- `./node_modules/.bin/serverless invoke local -s local --function func -d '{"name": "Local"}'`
