@@ -1,0 +1,10 @@
+[package]
+name = "serverless-lambda-with-rust"
+version = "1.0.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1.28.1", features = ["macros"] }
+serde_json = "1.0.96"
+lambda_runtime = "0.8.0"
+lambda_http = "0.8.0"
